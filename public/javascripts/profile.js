@@ -15,8 +15,9 @@ function showSaved() {
 }
 
 // Set the active tab on reload
-setActiveTab(getActiveTab() || 'savedBtn');
 
+
+//this displays bar below selected button
 function setActiveTab(tabName) {
     // Remove 'active' class from all buttons
     document.querySelectorAll('.action-bar2 button').forEach(button => {
@@ -37,6 +38,7 @@ function getActiveTab() {
     return localStorage.getItem('activeTab');
 }
 
+setActiveTab(getActiveTab() || 'savedBtn');
 
 
 
