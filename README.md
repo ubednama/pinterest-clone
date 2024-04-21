@@ -11,12 +11,13 @@ Other modules used are Passport, Multer, UUID. Can be found in package.json
 - Responsive design using Tailwind CSS
 
 ## Tech Stack
-
+- **Database**
+  - MongoDB
+    
 - **Backend:**
   - Node.js
   - Express.js
   - Passport.js
-  - MongoDB
   - Mongoose
   - UUID
   - Multer
